@@ -24,7 +24,7 @@ public class Main {
 	}
 
 	private boolean shouldMultiply() {
-		System.out.print("Czy chcesz wykonać mnożenie? Wybór \"nie\" spowoduje wykonanie dodawania. (y/n): ");
+		System.out.print("Czy chcesz wykonać mnożenie? Wybór \"nie\" lub inny spowoduje wykonanie dodawania. (y/n): ");
 		char type;
 		type=scanner.next().charAt(0);
 		if (type=='y')
